@@ -1,7 +1,33 @@
 
-# Simulate Key
+<p align="center">
+    <img width="400px" src="https://i.imgur.com/LGkOM9T.png" />
+</p>
+<p align="center">
+     <a href="https://github.com/vtempest/simulate-key/discussions">
+     <img alt="GitHub Stars" src="https://img.shields.io/github/stars/vtempest/simulate-key" /></a>
+    <a href="https://www.rust-lang.org/">
+<img alt="Rust version" src="https://img.shields.io/badge/rust--version-1.85+-brightgreen.svg" /></a>
+<a href="https://crates.io/crates/simulate_key">
+<img alt="Crates.io" src="https://img.shields.io/crates/v/simulate_key.svg" /></a>
+    <a href="https://github.com/vtempest/simulate-key/discussions">
+    <img alt="GitHub Discussions"
+        src="https://img.shields.io/github/discussions/vtempest/simulate-key" />
+    </a>
+    <a href="https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/">
+        <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/>
+    </a>
+    <a href="https://codespaces.new/vtempest/simulate-key">
+    <img src="https://github.com/codespaces/badge.svg" width="150" height="20"/>
+    </a>
+</p>
+
+# Simulate Key (Rust Package)
 
 A simple Rust library for simulating keyboard input using the `enigo` crate. This library provides an easy-to-use interface for sending key combinations programmatically.
+
+```
+cargo add simulate_key
+```
 
 ## Features
 
@@ -17,7 +43,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-key-simulator = "0.1.0"
+simulate_key = "0.1.1"
 ```
 
 ## Usage

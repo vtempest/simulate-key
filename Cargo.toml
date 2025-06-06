@@ -1,6 +1,6 @@
 [package]
 name = "simulate_key"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["vtempest <grokthiscontact@gmail.com>"]
 license = "MIT"
@@ -8,7 +8,7 @@ description = "A simple key combination simulator using enigo"
 repository = "https://github.com/vtempest/simulate_key.rs"
 keywords = ["keyboard", "automation", "simulation", "hotkeys"]
 categories = ["api-bindings", "os"]
-readme = "README.md"
+readme = "readme.md"
 
 [dependencies]
 enigo = "0.4"
